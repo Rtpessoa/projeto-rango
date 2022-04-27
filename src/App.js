@@ -1,10 +1,12 @@
-import './App.css';
+import './styles/reset.css';
+import './styles/App.css';
+import Carousel from "./components/Carousel";
 
 function App() {
+  
   return (
-  <h1>
-    Projeto Rango está Online
-  </h1>);
+    <Carousel/>
+  );
 }
 
 export default App;
