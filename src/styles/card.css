@@ -1,5 +1,6 @@
 .card-refeicao {
     width: 280px;
+    height: 166px;
     border-radius: 6px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     display: flex;
@@ -54,4 +55,11 @@
 .reviews p {
     font-size: 12px;
     margin-left: 5px;
+}
+
+
+@media (min-width: 768px) {
+    .card-refeicao {
+        width: 350px;
+    }
 }

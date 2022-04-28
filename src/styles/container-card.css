@@ -1,4 +1,30 @@
+.titulo-receitas {
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--logo-font);
+    margin: 32px 0px;
+    color: var(--color-primary);
+    display: none;
+}
+
 .container-card {
     padding: 24px 20px;
     padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+@media (min-width: 768px) {
+    .titulo-receitas {
+        display: block;
+    }
+
+    .container-card {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
