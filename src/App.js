@@ -1,11 +1,17 @@
 import './styles/reset.css';
-import './styles/App.css';
+import './styles/app.css';
 import Carousel from "./components/Carousel";
+import './components/Header';
+import Cabecalho from './components/Header';
 
 function App() {
   
   return (
-    <Carousel/>
+    <section>
+      <Cabecalho logo="Rango!" itensMenu={["Home", "Receitas", "Reviews", "Sobre", "Fale Conosco", "Parceiros"]}/>
+      <Carousel/>
+    </section>
+    
   );
 }
 

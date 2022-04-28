@@ -9,23 +9,22 @@ import imagem5 from '../assets/images/feijoada.png'
 const Comida = (props) => {
    
   return (
-    
-    <div className="carousel">
-    <Carousel autoPlay={true} emulateTouch={true} interval={5000} infiniteLoop={true} showArrows={false} showStatus={false} stopOnHover={true} transitionTime={1000} showThumbs={false}>
-        <div>
+    <div className="carousel" >
+    <Carousel  autoPlay={true} emulateTouch={true} interval={5000} infiniteLoop={true} showArrows={false} showStatus={false} stopOnHover={true} transitionTime={1000} showThumbs={false}>
+        <div >
             <img src={imagem1} />
         </div>
         <div>
-            <img src={imagem2} />
+            <img  src={imagem2} />
         </div>
         <div>
-            <img src={imagem3} />
+            <img  src={imagem3} />
         </div>
         <div>
             <img src={imagem4} />
         </div>
         <div>
-            <img src={imagem5} />
+            <img  src={imagem5} />
         </div>
     </Carousel>
 </div>
