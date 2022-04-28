@@ -1,14 +1,18 @@
 import Card from "./Card";
+import CardDestaque from "./Card-destaque";
 import "../styles/container-card.css";
 import frango from "../assets/images/frango.png";
 import porco from "../assets/images/porco-ao-molho.png";
 import salada from "../assets/images/salada.png";
 import bolo from "../assets/images/bolo-de-rolo.png";
+import pf from "../assets/images/pf.png";
+import petiscos from "../assets/images/petiscos.png";
+
 
 function ContainerCard() {
   return (
     <>
-    <h1 className="titulo-receitas">Receitas</h1>
+      <h1 className="titulo-receitas">Receitas</h1>
       <div className="container-card">
         <Card
           imagem={frango}
@@ -19,6 +23,7 @@ function ContainerCard() {
           tempo={"40"}
           reviews={"18.498"}
         />
+        <CardDestaque imagem={pf} titulo={"de todo dia"}/>
         <Card
           imagem={porco}
           classificacao={"Carnes"}
@@ -30,6 +35,7 @@ function ContainerCard() {
           tempo={"60"}
           reviews={"20.125"}
         />
+
         <Card
           imagem={salada}
           classificacao={"Saladas"}
@@ -41,6 +47,8 @@ function ContainerCard() {
           tempo={"15"}
           reviews={"1.138"}
         />
+
+        <CardDestaque imagem={petiscos} titulo={"petiscos rápidos"}/>
         <Card
           imagem={bolo}
           classificacao={"Sobremesas"}

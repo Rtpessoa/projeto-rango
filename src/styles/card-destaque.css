@@ -1,0 +1,36 @@
+.container-card-destaque {
+    height: 166px;
+    width: 200px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+
+.imagem-card-destaque {
+    width: 100%;
+    height: 127px;
+    margin: 0;
+}
+
+.link-descricao {
+    background-color: var(--color-primary);
+    height: 100%;
+    display: block;
+    height: 35px; 
+    width: 100%;
+    text-decoration: none;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+@media (min-width: 1024px ) {
+    .container-card-destaque {
+        display: flex;
+    }
+}

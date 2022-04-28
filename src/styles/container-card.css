@@ -11,10 +11,12 @@
     padding: 24px 20px;
     padding-bottom: 0px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 
@@ -26,5 +28,11 @@
     .container-card {
         flex-direction: row;
         justify-content: space-around;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-card {
+        align-items: center;
     }
 }
