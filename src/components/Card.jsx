@@ -1,27 +1,27 @@
 import "../styles/card.css";
-import frango from "../assets/images/frango.png"
 import avatar from "../assets/icons/avatar.png"
 import relogio from "../assets/icons/relogio.png"
 
 
-function Card() {
+function Card({imagem, classificacao, nome, descricao, preco, tempo, reviews}) {
+
   return (
     <div className="card-refeicao">
-      <img src={frango} alt="Frango com batatas fritas e salada verde." />
+      <img src={imagem} alt="Frango com batatas fritas e salada verde." />
       <div className="descricao-card">
-        <h1>REFEIÇÕES</h1>
-        <h2>Frango com Fritas</h2>
-        <p className="descricao-do-prato">Coxas de frango acompanhada com salada, fritas e molho.</p>
+        <h1>{classificacao}</h1>
+        <h2>{nome}</h2>
+        <p className="descricao-do-prato">{descricao}</p>
         <div>
-          <p className="preco">R$ 45,00</p>
+          <p className="preco">R$ {preco}</p>
           <div className="duracao-e-reviews">
             <div className="tempo-de-preparo">
               <img src={relogio} alt="Ícone de um relógio"/>
-              <p>40 min</p>
+              <p>{tempo} min</p>
             </div>
             <div className="reviews">
               <img src={avatar} alt="Ícone de uma pessoa"/>
-              <p>18.498</p>
+              <p>{reviews}</p>
             </div>
           </div>
         </div>

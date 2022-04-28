@@ -1,9 +1,9 @@
 .card-refeicao {
     width: 280px;
-    height: 150px;
     border-radius: 6px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
     display: flex;
+    margin-bottom: 20px;
 }
 .descricao-card {
     padding: 10px;
@@ -11,6 +11,7 @@
 .descricao-card h1 {
     font-size: 12px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .descricao-card h2 {
