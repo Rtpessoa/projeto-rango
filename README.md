@@ -19,11 +19,12 @@ Para desenvolver o site foi utilizado HTML5, CSS3, ReactJS e Figma.
 
 ## Aplicação :star:
 
-[<img src="./src/assets/images/gif_site.gif" alt="Logo">](https://gutoggg.github.io/agencia-zen/)
+[<img src="./src/assets/images/gif_site.gif" alt="Logo">](https://joely-brito.github.io/projeto-rango/)
 
 
 ## Deploy :rocket:
 
+[Link para a aplicação](https://joely-brito.github.io/projeto-rango/)
 
 ## Feito por: :man: :woman:
 <div align="center">
