@@ -5,7 +5,6 @@ footer {
     padding: 20px;
     padding-bottom: 40px;
     background: linear-gradient(180deg, #CA6136 0%, #FD5F08 100%);
-    border-bottom: solid 1px white;
 }
 
 .subscribe-container{
@@ -24,10 +23,28 @@ footer {
 
 .subscribe-input{
     width: 100%;
+    height: 1.5rem;
+    max-width: 600px;
+    border-radius: 3px;
+    border: none;
+}
+
+.subscribe-input::placeholder{
+    color: grey;
+    opacity: .25;
 }
 
 .subscribe-button{
     width: 30%;
+    max-width: 150px;
+    min-width: 8rem;
+    background-color: #FC8C1B;
+    border: none;
+    border-radius: 3px;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: var(--font-bold);
 }
 
 .divisor{
@@ -39,15 +56,73 @@ footer {
 .footer-content{
     padding: 20px;
     background: linear-gradient(180deg, #FD5F08 40.63%, #FC8C1B 100%);
-    border-bottom: solid 2px white;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
 }
 
+.carrot-box{
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    
+}
+.none{
+    height: 1px;
+    width: 1px;
+}
+
 .footer-carrot-icon{
     width: 1.5rem;
-    position: relative;
-    float: left;
-    top: -44px;
+    height: auto;
+}
+
+
+.footer-text-list, .footer-image-list{
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.footer-text-list li, .footer-image-list li {
+    font-weight: var(--font-light);
+    margin-top: 1rem;
+}
+
+.first-list{
+    margin-top: 0;
+}
+
+li.footer-text-list-title{
+    font-weight: var(--font-bold);
+}
+
+.footer-image-li{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5vw;
+   
+}
+
+.footer-location{
+    background-color: #FC8C1B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: white solid 1px;
+    font-size: .8rem;
+}
+
+.footer-close{
+    font-family: var(--logo-font);
+    font-size: 2rem;
+    background-color: white;
+    color: #FC8C1B;
+    text-align: center;
+    padding: 20px;
+    border-top: white solid 1px;
 }
