@@ -8,7 +8,7 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <section>
-      <Cabecalho logo="Rango!" itensMenu={["Home", "Receitas", "Reviews", "Sobre", "Fale Conosco", "Parceiros"]}/>
+      <Cabecalho logo="Rango!" itensMenu={["Home", "Receitas", "Reviews", "Sobre"]}/>
       <ContainerCard />
       <Footer/>
     </section>

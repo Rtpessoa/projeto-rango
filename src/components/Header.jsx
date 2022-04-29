@@ -59,20 +59,20 @@ const Cabecalho = (props) => {
       <div className="carousel" ref={carousel}>
     <Carousel  autoPlay={true} emulateTouch={true} interval={5000} infiniteLoop={true} showArrows={false} showStatus={false} stopOnHover={true} transitionTime={1000} showThumbs={false}>
         <div>
-            <img src={imagem1} />
+            <img src={imagem1} alt="Arroz Carreteiro"/>
         </div>
         <div>
-            <img  src={imagem2} />
+            <img  src={imagem2} alt="Pato no Tucupi"/>
         </div>
         <div>
-            <img  src={imagem3} />
+            <img  src={imagem3}  alt="Caipirinha" />
         </div>
         <div>
-            <img src={imagem4} />
+            <img src={imagem4}  alt="Baião de Dois" />
 
         </div>
         <div>
-            <img  src={imagem5} />
+            <img  src={imagem5}  alt="Feijoada"/>
         </div>
     </Carousel>
 </div>
