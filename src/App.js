@@ -1,11 +1,12 @@
 import './styles/reset.css';
-import './styles/App.css';
+import './styles/app.css';
 import Carousel from "./components/Carousel";
+import Footer from "./components/Footer"
 
 function App() {
   
   return (
-    <Carousel/>
+    <Footer/>
   );
 }
 

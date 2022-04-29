@@ -1,0 +1,53 @@
+footer {
+}
+
+.subscribe-content{
+    padding: 20px;
+    padding-bottom: 40px;
+    background: linear-gradient(180deg, #CA6136 0%, #FD5F08 100%);
+    border-bottom: solid 1px white;
+}
+
+.subscribe-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+
+.subscribe-title{
+    font-weight: var(--font-medium);
+    color: white;
+}
+
+.subscribe-input{
+    width: 100%;
+}
+
+.subscribe-button{
+    width: 30%;
+}
+
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footer-content{
+    padding: 20px;
+    background: linear-gradient(180deg, #FD5F08 40.63%, #FC8C1B 100%);
+    border-bottom: solid 2px white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.footer-carrot-icon{
+    width: 1.5rem;
+    position: relative;
+    float: left;
+    top: -44px;
+}
