@@ -4,6 +4,8 @@ import iconeYoutube from "../assets/images/youtube.png";
 import iconeTwitter from "../assets/images/twitter.png";
 import iconeInstagram from "../assets/images/instagram.png";
 import FooterList from "../components/FooterList";
+import brocolisSticker from "../assets/images/brocolis.png"
+import limaoSticker from "../assets/images/limao.png"
 
 import carrot from "../assets/images/carrot.png";
 const Footer = (props) => {
@@ -19,6 +21,10 @@ const Footer = (props) => {
             placeholder="e-mail"
           />
           <button className="subscribe-button">Assinar</button>
+        </div>
+        <div className="subscribe-images-container">
+            <img className="brocolis" src={brocolisSticker} alt="figurinha de um brocolis" />
+            <img className="limao" src={limaoSticker} alt="figurinha de um limão" />
         </div>
       </div>
       <div className="carrot-box">

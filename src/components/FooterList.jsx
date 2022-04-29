@@ -5,12 +5,12 @@ const FooterList = (props) => {
             {props.itens.map((menuItem, index) => {
                if ( index == 0) {
                     return (
-                        <li className='footer-text-list-title' >{menuItem}</li>
+                        <li key={index} className='footer-text-list-title' >{menuItem}</li>
                     )
                } 
                else {
                 return (
-                    <li>{menuItem}</li>
+                    <li key={index}><a className="footer-link" href="#">{menuItem}</a></li>
                     )
                }
             })}
