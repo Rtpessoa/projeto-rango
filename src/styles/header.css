@@ -84,7 +84,6 @@
   }
  .carousel{
    z-index: 0;
-   height: 436px;
  }
   .carousel.carousel-index-negativo{
     z-index: -1;
@@ -148,6 +147,10 @@
     .menu-icon,
     .close-icon {
       display: none;
+    }
+
+    .carousel {
+      height: 436px;
     }
   
     .header-navigation {
