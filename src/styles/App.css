@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Montserrat:wght@300;400;500;700&display=swap');
 
 :root{
+  
     --laranja-escuro: #FD5F08;
     --branco: #FFFFFF;
-
     --logo-font: 'Love Ya Like A Sister', cursive ;
     --body-font: 'Montserrat', sans-serif;
     
@@ -11,16 +11,17 @@
     --font-regular:400;
     --font-medium:500;
     --font-bold:700;
-    
     --color-primary: #FD5F08;
 }
-
 
 body {
     font-family: var(--body-font);
 }
 
+.logo{
+  font-family: var(--logo-font); 
+}
+
 .logo-font{
     font-family: var(--logo-font); 
 }
-

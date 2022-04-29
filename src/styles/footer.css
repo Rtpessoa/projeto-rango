@@ -1,0 +1,204 @@
+.subscribe-content{
+    padding: 20px;
+    padding-bottom: 40px;
+    background: linear-gradient(180deg, #CA6136 0%, #FD5F08 100%);
+}
+
+.subscribe-container{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    align-items: center;
+    row-gap: 10px;
+    
+}
+
+.subscribe-title{
+    font-weight: var(--font-medium);
+    color: white;
+}
+
+.subscribe-input{
+    width: 100%;
+    height: 1.5rem;
+    max-width: 600px;
+    border-radius: 3px;
+    border: none;
+}
+
+.subscribe-input::placeholder{
+    color: grey;
+    opacity: .25;
+}
+
+.subscribe-button{
+    width: 30%;
+    max-width: 150px;
+    min-width: 8rem;
+    background-color: #FC8C1B;
+    border: none;
+    border-radius: 3px;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: white;
+    font-weight: var(--font-bold);
+}
+
+.divisor{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footer-content{
+    padding: 20px;
+    background: linear-gradient(180deg, #FD5F08 40.63%, #FC8C1B 100%);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.carrot-box{
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    
+}
+.none{
+    height: 1px;
+    width: 1px;
+}
+
+.footer-carrot-icon{
+    width: 1.5rem;
+    height: auto;
+}
+
+
+.footer-text-list, .footer-image-list{
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 2rem;
+
+}
+
+.footer-text-list li, .footer-image-list li {
+    font-weight: var(--font-light);
+    margin-top: 1rem;
+}
+
+.first-list{
+    margin-top: 0;
+}
+
+li.footer-text-list-title{
+    font-weight: var(--font-bold);
+}
+
+.footer-image-li{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5vw;
+}
+
+.footer-location{
+    background-color: #FC8C1B;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: white solid 1px;
+    font-size: .8rem;
+}
+
+.footer-close{
+    font-family: var(--logo-font);
+    font-size: 2rem;
+    background-color: white;
+    color: #FC8C1B;
+    text-align: center;
+    padding: 20px;
+    border-top: white solid 1px;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-link:hover{
+    font-weight: var(--font-medium);
+}
+
+.subscribe-images-container{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .footer-content{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-text-list {
+        width: 30%;
+    }
+
+    .footer-image-list{
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .footer-content{
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .footer-text-list {
+        width: 25%;
+    }
+
+    .footer-image-list{
+        width: 25%;
+    }
+
+    .subscribe-images-container{
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        padding: 15px 0;
+    }
+
+    .subscribe-images-container img{
+        width: 6rem;
+    }
+
+    .subscribe-content {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .subscribe-container{
+        width: 50%;       
+    }
+    
+    .brocolis{
+        margin-bottom: 15px;
+    }
+
+    .limao{
+        margin-top: 15px;
+    }
+
+    .footer-carrot-icon{
+        width: 2rem;
+    }
+  }
