@@ -25,7 +25,6 @@ const Footer = (props) => {
         <img className="footer-carrot-icon" src={carrot} alt="" />
       </div>
       <div className="footer-content">
-        <div className="footer-container">
           <FooterList itens={["Categorias", "Refeições", "Sobremesas", "Petiscos", "Rápidas", "Regionais" ]} />
           <FooterList itens={["O Rango!", "Parceiros", "Sobre", "Fale Conosco", "Iniciativas", ]} />
           <FooterList itens={[ "Já acabou, Rango?", "Trabalhe Conosco", "Dúvidas Frequentes", "Termos de Uso", ]} />
@@ -38,7 +37,6 @@ const Footer = (props) => {
               <img src={iconeFacebook} alt="Ícone do Facebook" />
             </li>
           </ul>
-        </div>
       </div>
       <div className="footer-location">
         <p>

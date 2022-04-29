@@ -123,3 +123,9 @@ li.footer-text-list-title{
     padding: 20px;
     border-top: white solid 1px;
 }
+
+@media (min-width: 768px) {
+    .footer-content{
+        flex-flow: row nowrap
+    }
+  }
