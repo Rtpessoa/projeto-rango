@@ -1,0 +1,65 @@
+.card-refeicao {
+    width: 280px;
+    height: 166px;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    margin-bottom: 20px;
+}
+.descricao-card {
+    padding: 10px;
+}
+.descricao-card h1 {
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.descricao-card h2 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.descricao-do-prato {
+    text-align: center;
+    font-size: 12px;
+}
+
+.preco {
+    font-size: 12px;
+    margin-top: 22px;
+    margin-bottom: 8px;
+}
+
+.duracao-e-reviews {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.tempo-de-preparo {
+    display: flex;
+}
+
+.tempo-de-preparo p {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.reviews {
+    display: flex;
+}
+
+.reviews p {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+
+@media (min-width: 768px) {
+    .card-refeicao {
+        width: 350px;
+    }
+}
