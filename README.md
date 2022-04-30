@@ -24,7 +24,7 @@ Para desenvolver o site foi utilizado HTML5, CSS3, ReactJS e Figma.
 
 ## Deploy :rocket:
 
-[Link para a aplicação](https://joely-brito.github.io/projeto-rango/)
+[Link para a aplicação](https://Rtpessoa.github.io/projeto-rango)
 
 ## Feito por: :man: :woman:
 <div align="center">
