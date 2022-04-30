@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/projeto-rango/static/css/main.7bd44261.css",
+    "main.js": "/projeto-rango/static/js/main.8d7d5ec9.js",
+    "static/media/feijoada.png": "/projeto-rango/static/media/feijoada.f3377efdc22dcfa187a3.png",
+    "static/media/pato-gotico-kkkkk.png": "/projeto-rango/static/media/pato-gotico-kkkkk.253ec1398556ca818ed5.png",
+    "static/media/baiao.png": "/projeto-rango/static/media/baiao.3314e395e11915ea3552.png",
+    "static/media/caipirinha.png": "/projeto-rango/static/media/caipirinha.b5eaa3e1c83cc3a35164.png",
+    "static/media/arroz.png": "/projeto-rango/static/media/arroz.43ec1fd5f767ffae7cce.png",
+    "static/media/limao.png": "/projeto-rango/static/media/limao.ed96d03b5916558ac56d.png",
+    "static/media/brocolis.png": "/projeto-rango/static/media/brocolis.ba6508f86faacd356744.png",
+    "static/media/petiscos.png": "/projeto-rango/static/media/petiscos.21fc9faf54f0521d16c6.png",
+    "static/media/pf.png": "/projeto-rango/static/media/pf.b2fd7d76a78031d51559.png",
+    "static/media/frango.png": "/projeto-rango/static/media/frango.42fc864a76831904e163.png",
+    "static/media/porco-ao-molho.png": "/projeto-rango/static/media/porco-ao-molho.a939094a393949e994b6.png",
+    "static/media/salada.png": "/projeto-rango/static/media/salada.202838cbbf4a9ec31cf8.png",
+    "static/media/bolo-de-rolo.png": "/projeto-rango/static/media/bolo-de-rolo.e3fbbc0711c67af458ab.png",
+    "static/media/carrot.png": "/projeto-rango/static/media/carrot.4950c191c119b72a7d00.png",
+    "index.html": "/projeto-rango/index.html",
+    "main.7bd44261.css.map": "/projeto-rango/static/css/main.7bd44261.css.map",
+    "main.8d7d5ec9.js.map": "/projeto-rango/static/js/main.8d7d5ec9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bd44261.css",
+    "static/js/main.8d7d5ec9.js"
+  ]
+}
